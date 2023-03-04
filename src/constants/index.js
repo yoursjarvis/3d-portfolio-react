@@ -1,28 +1,26 @@
 import {
   backend,
-  carrent,
+  bulma,
   creator,
   css,
-  docker,
   figma,
   git,
   html,
   javascript,
   jobit,
-  meta,
+  laravel,
   mobile,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  shopify,
-  starbucks,
-  tailwind,
-  tesla,
-  threejs,
+  nuxt,
+  php,
+  pinia,
+  primevue,
+  tal,
   tripguide,
   typescript,
+  vaahcms,
+  vue,
   web,
+  webreinvent,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +44,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Vue.Js",
     icon: mobile,
   },
   {
@@ -54,7 +52,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Nuxt.Js",
     icon: creator,
   },
 ];
@@ -69,6 +67,14 @@ const technologies = [
     icon: css,
   },
   {
+    name: "PHP",
+    icon: php,
+  },
+  {
+    name: "Laravel",
+    icon: laravel,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -77,28 +83,24 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Vue JS",
+    icon: vue,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Pinia",
+    icon: pinia,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Nuxt JS",
+    icon: nuxt,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "PrimeVue",
+    icon: primevue,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
+    name: "Bulma",
+    icon: bulma,
   },
   {
     name: "git",
@@ -108,62 +110,32 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Developer",
+    company_name: "WebReinvent Technologies Pvt Ltd",
+    icon: webreinvent,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "April 2022 - Current",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing Web Application using Laravel, Vue.Js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
+      "I'm highly contributed on a open source Headless CMS called VaahCMS, which was developed by WebReinvent Team.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Junior Back-End Developer",
+    company_name: "Think Agin Lab",
+    icon: tal,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "July 2021 - April 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing APIs and business logic of an applications using Laravel and other related technologies.",
+      "Collaborating with cross-functional teams including front-end developer, designers, product managers, and other developers to create high-quality products.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -198,25 +170,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "VaahCMS",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "VaahCMS is a web application development platform shipped with headless content management system and common features required in any web application.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "laravel",
+        color: "pink-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "vue",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "pinia",
+        color: "blue-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: vaahcms,
+    source_code_link: "https://github.com/webreinvent/vaahcms/tree/2.x",
   },
   {
     name: "Job IT",
